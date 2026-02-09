@@ -1,4 +1,4 @@
-// 1 Exercise:
+// 1 Exercise 'Array Length':
 // Create a function that counts the number of countries in the array and returns the count.
 // Define the variable inside the function.
 function countCountries() {
@@ -14,8 +14,10 @@ function countCountries() {
 let resultNum = 0;
 console.log(countCountries(resultNum)); // Output: 5
 
+
+
 // ******************
-// 2 Exercise:
+// 2 Exercise 'Print Elements with Index':
 // Create a function that prints the array items with their corresponding index number.
 function nameP() {
     let newArray = ["John", "Jane", "Doe", "Mary", "Smith"];
@@ -28,8 +30,26 @@ function nameP() {
 nameP(); 
 // Output: 0.John 1.Jane 2.Doe 3.Mary 4.Smith      
 
+
+
 // ******************
-// 3 Exercise:
+// 3 Exercise 'Sum of Numbers':
+// Create a function that sums all the numbers in an array and returns the result.
+let numArray = [1, 2, 3, 4, 5];
+let count = 0;
+
+function countNum() {
+    let i = 0;
+    do {
+        count += numArray[i];
+        i ++;   
+        
+    } while (i < numArray.length);
+
+    return count;
+}
+console.log(countNum()); // Output: 15
+
 
 // 4 Exercise:
 
