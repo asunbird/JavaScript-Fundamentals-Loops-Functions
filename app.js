@@ -16,7 +16,19 @@ console.log(countCountries(resultNum)); // Output: 5
 
 // ******************
 // 2 Exercise:
+// Create a function that prints the array items with their corresponding index number.
+function nameP() {
+    let newArray = ["John", "Jane", "Doe", "Mary", "Smith"];
+    let index = 0;
+    while (newArray[index] !== undefined) {
+        console.log(index + "." + newArray[index]);
+        index++;
+    }
+}
+nameP(); 
+// Output: 0.John 1.Jane 2.Doe 3.Mary 4.Smith      
 
+// ******************
 // 3 Exercise:
 
 // 4 Exercise:
