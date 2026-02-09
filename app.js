@@ -11,8 +11,8 @@ function countCountries() {
 }
 // Define the variable outside the function. Call the function, initialize reterned value to our variable
 //  and log the result to the console.
-let countNum = 0;
-console.log(countCountries(countNum)); // Output: 5
+let resultNum = 0;
+console.log(countCountries(resultNum)); // Output: 5
 
 // ******************
 // 2 Exercise:
