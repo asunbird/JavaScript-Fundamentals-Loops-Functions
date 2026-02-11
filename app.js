@@ -123,7 +123,18 @@ console.log(x(valueX));
 // Output: 3
 
 
-// 7 Exercise:
+// 7 Exercise 'String Loop':
+function strPrint() {
+    let str = "This string was printed using a loop.";
+    let index = 0;
+    while (index < str.length) {
+        console.log(str[index]);
+        index++;
+    }
+}
+strPrint();
+// Output: T h i s   s t r i n g   w a s   p r i n t e d   u s i n g   a   l o o p .
+
 
 // 8 Exercise:
 
