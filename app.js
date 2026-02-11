@@ -12,8 +12,8 @@ function countCountries() {
 // Define the variable outside the function. Call the function, initialize reterned value to our variable
 //  and log the result to the console.
 let resultNum = 0;
-console.log(countCountries(resultNum)); // Output: 5
-
+console.log(countCountries(resultNum)); 
+// Output: 5
 
 
 // ******************
@@ -29,7 +29,6 @@ function nameP() {
 }
 nameP(); 
 // Output: 0.John 1.Jane 2.Doe 3.Mary 4.Smith      
-
 
 
 // ******************
@@ -48,11 +47,12 @@ function countNum() {
 
     return count;
 }
-console.log(countNum()); // Output: 15
+console.log(countNum()); 
+// Output: 15
 
 
 // 4 Exercise 'Find the Largest Number':
-
+// Create a function that finds the largest number in an array and returns it.
 let mountArray = [
     ["Makalu", 8485],
     ["Mount Everest", 8849],
@@ -84,10 +84,13 @@ function compareMount() {
          }
         }
 }
-console.log(compareMount()); // Output: 8849
+console.log("The largest mount height is " + compareMount() + " meters."); 
+// Output: The largest mount height is 8849 meters.
 
 
 // 5 Exercise:
+
+
 
 // 6 Exercise:
 
