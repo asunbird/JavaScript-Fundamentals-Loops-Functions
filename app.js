@@ -102,7 +102,26 @@ console.log(reverseArray());
 // Output: ["e", "d", "c", "b", "a"]
 
 
-// 6 Exercise:
+// 6 Exercise 'Count a Value':
+// Create a function that counts the number of times a value appears in an array and returns the count.
+function x(valueX) {
+    let arrayX = ["blue", "red", "green", "blue", "yellow", "blue", "red"];
+    let item = "";
+    let countX = 0;
+    for (let j = 0; j < arrayX.length; j++ ) {
+        item = arrayX[j];
+        if (item === valueX) {
+            countX++;
+        } else {
+            continue;
+        }
+    }
+    return countX;
+}
+let valueX = "blue";
+console.log(x(valueX)); 
+// Output: 3
+
 
 // 7 Exercise:
 
