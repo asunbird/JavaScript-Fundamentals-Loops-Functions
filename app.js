@@ -88,8 +88,18 @@ console.log("The largest mount height is " + compareMount() + " meters.");
 // Output: The largest mount height is 8849 meters.
 
 
-// 5 Exercise:
-
+// 5 Exercise 'Reverse an Array':
+// Create a function that reverses an array and returns the reversed array.
+function reverseArray() {
+    let array1 = ["a", "b", "c", "d", "e"];
+    let reversedArray = [];
+    for (let i = array1.length - 1; i >= 0; i--) {
+        reversedArray[reversedArray.length] = array1[i];
+    }
+    return reversedArray;
+}
+console.log(reverseArray()); 
+// Output: ["e", "d", "c", "b", "a"]
 
 
 // 6 Exercise:
