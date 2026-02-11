@@ -124,6 +124,7 @@ console.log(x(valueX));
 
 
 // 7 Exercise 'String Loop':
+// Create a function that prints each character of a string on a new line.
 function strPrint() {
     let str = "This string was printed using a loop.";
     let index = 0;
@@ -136,6 +137,33 @@ strPrint();
 // Output: T h i s   s t r i n g   w a s   p r i n t e d   u s i n g   a   l o o p .
 
 
-// 8 Exercise:
+// 8 Exercise 'Pattern Printing':
+// Create a function that prints a pattern of asterisks. 
+// The function should take a number as an argument and print that many lines of asterisks, 
+// with each line having one more asterisk than the previous one.
+function pattPr(n) {
+    let patt = "*";
+    for (let i = 1; i <= n; i++) {
+        console.log(patt);
+        patt += "*";   
+    }
+}
+let n = 4;
+pattPr(n);
+// Output: * ** *** ****
 
 // Bonus Exercise:
+// Exercise 8 with While loop:
+function pattPr(y) {
+    let patt = "*";
+    let i = 1;
+    while (i <= y) {
+        console.log(patt);
+        i++;
+        patt = "*".repeat(i); 
+    }
+}
+let y = 3;
+pattPr(y);
+// Output: * ** ***
+
