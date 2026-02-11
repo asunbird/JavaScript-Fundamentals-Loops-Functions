@@ -43,7 +43,7 @@ function countNum() {
     do {
         count += numArray[i];
         i ++;   
-        
+
     } while (i < numArray.length);
 
     return count;
@@ -51,7 +51,41 @@ function countNum() {
 console.log(countNum()); // Output: 15
 
 
-// 4 Exercise:
+// 4 Exercise 'Find the Largest Number':
+
+let mountArray = [
+    ["Makalu", 8485],
+    ["Mount Everest", 8849],
+    ["K2", 8611],
+    ["Kangchenjunga", 8586],
+    ["Lhotse", 8516],
+    ["Cho Oyu", 8188],
+    ["Dhaulagiri", 8167],
+    ["Manaslu", 8163],
+    ["Nanga Parbat", 8126],
+];
+
+let largestMount = []; 
+let mountCount = mountArray.length;
+
+function compareMount() {
+    let index = 0;
+    let num1 = 0;
+    let num2 = 0;
+    while (index < mountCount) {
+       num1 = mountArray[index][1]; 
+       index++;
+       num2 = mountArray[index][1];
+       
+          if (num1 < num2) {
+             return largestMount = num2;
+          } else {
+              return largestMount = num1;
+         }
+        }
+}
+console.log(compareMount()); // Output: 8849
+
 
 // 5 Exercise:
 
